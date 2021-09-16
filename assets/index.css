@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+img.head-img {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+}
+
+.header-nav-conteiner {
+  margin-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
