@@ -1,16 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
+header {
+  padding: 0;
+}
+
+header .header-info {
+  margin-bottom: 0;
+  min-height: 10vh;
+}
+
+header .header-info h1 {
+  font-weight: Arial;
+  font-size: 2em;
+}
+
+header .slider {
+  position: relative;
+  overflow: hidden;
+  height: 60vh !important;
+}
+
+header .slides {
+  position: relative;
+  overflow: hidden;
+  height: 60vh !important;
+}
 .margin-top-0 {
   margin-top: 0 !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
 }
 
 img.head-img {
   filter: brightness(50%);
   -webkit-filter: brightness(50%);
-}
-
-.header-nav-conteiner {
-  margin-left: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
 }
